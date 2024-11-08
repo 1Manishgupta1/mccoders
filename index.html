@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>MCoders</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css">
+    <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
+  </head>
+  <body>
+    <nav >
+      <div class="left">
+        <div class="logoimage"><img src="logo.png"></div>
+        <div class="logo"><p>Coders</p></div>
+      </div>
+
+        <div class="middle"> <input type="text" placeholder="search here...." /> </div>
+        
+     
+      <div class="right">
+        <div class="right1"><a href="index.html">Home</a></div>
+        <div class="right2"><a href="about.html">About</a></div>
+        <div class="right3"><a href="https://www.mmmut.xyz/index.html" target="_blank">Resources</a></div>
+        <div class="right4"><a href="contact.html">Contact</a></div>
+      </div>
+
+  </nav>
+ 
+    <header>
+      <p class="float_para">
+        <marquee direction="left">
+          This is a website designed by <b> Manish Gupta </b> to learn html and
+          css</marquee
+        >
+      </p>
+      <div class="navbottom">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Menu</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="https://www.mmmut.xyz/index.html" target="_blank">Resources</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="web com_left">
+        <img src="web.webp" alt=""/>
+
+        <div class="text_box">
+          <a href="https://en.wikipedia.org/wiki/Web_development"><h1>Web Development</h1></a>
+          
+          <p>
+            Web development is the process of creating and maintaining websites,
+            encompassing a variety of tasks and technologies. It involves both
+            front-end development, which focuses on the user interface and
+            experience, and back-end development, which deals with server-side
+            logic, databases, and application functionality. Web developers use
+            languages like HTML, CSS, and JavaScript for the front end, while
+            often employing server-side languages such as Python, Ruby, or PHP
+            for back-end operations. The field continually evolves, integrating
+            frameworks and tools to enhance performance and usability, making
+            web development a dynamic and essential discipline in the digital
+            age.
+          </p>
+        </div>
+      </div>
+      <div class="ai com_right">
+
+        <div class="text_box">
+          <a href="https://hbr.org/topic/subject/ai-and-machine-learning"><h1>AI and Machine Learning</h1></a>
+          
+          <p>
+            Artificial intelligence (AI) and machine learning (ML) are 
+            transformative technologies that enable computers to simulate human
+            intelligence and learn from data without being explicitly 
+            programmed. AI encompasses a broad range of tasks, such as natural
+            language processing, image recognition, decision-making, and 
+            problem-solving. Machine learning, a subset of AI, focuses on 
+            algorithms that allow systems to improve and adapt based on 
+            experience. ML algorithms analyze vast amounts of data to recognize
+            patterns and make predictions, driving advancements in fields like
+            healthcare, finance, autonomous systems, and more. Together, AI and
+            ML are revolutionizing industries by enhancing efficiency, accuracy,
+            and innovation.
+          </p>
+        </div>
+        <img src="ai.jpg" alt=""/> </div>
+
+      <div class="data com_left">
+        <img src="data.jpg" alt="" />
+        <div class="text_box">
+          <a href="https://en.wikipedia.org/wiki/Data_science"><h1>Data Science</h1></a>
+          
+          <p>
+            Data science is an interdisciplinary field that combines statistics,
+            computer science, and domain knowledge to extract meaningful 
+            insights from vast amounts of data. It involves techniques such as
+            data mining, machine learning, data visualization, and predictive
+            modeling to analyze both structured and unstructured data. Data
+            scientists use these methods to uncover patterns, make data-driven
+            decisions, and solve complex problems in industries ranging from
+            healthcare to finance and marketing. The process typically involves
+            data collection, cleaning, analysis, and interpretation, often using
+            programming languages like Python or R and tools like SQL and big
+            data frameworks. As the volume of data generated globally continues
+            to grow, data science plays a crucial role in driving innovation,
+            improving business strategies, and enhancing decision-making 
+            processes.
+          </p>
+        </div>
+      </div>
+      <div class="cyber com_right">
+        <div class="text_box">
+          <a href="https://en.wikipedia.org/wiki/Computer_security"><h1>Cyber Security</h1></a>
+          
+          <p>
+            The cybersecurity branch of computer science focuses on the study
+            and development of techniques to protect computer systems, networks,
+            and data from malicious attacks and unauthorized access. It combines
+            principles from cryptography, network security, information 
+            assurance, and software engineering to create robust security 
+            measures. In this field, professionals work to identify 
+            vulnerabilities, develop defensive mechanisms, and respond to cyber
+            threats in real-time. Research in cybersecurity includes areas like
+            ethical hacking, threat modeling, intrusion detection, and secure
+            software development. As the frequency and complexity of 
+            cyberattacks increase, cybersecurity has become a vital area of
+            computer science, playing a critical role in maintaining the 
+            privacy, integrity, and availability of information in both private
+            and public sectors.
+          </p>
+        </div>
+
+        <img src="cyber.jpg" alt="" />
+    </div>
+
+      <div class="cloud com_left">
+        <img src="cloud.jpg" alt="" />
+        <div class="text_box">
+          <a href="https://en.wikipedia.org/wiki/Cloud_computing"><h1>Cloud Computing</h1></a>
+          
+          <p>
+            Cloud computing is a technology that enables the delivery of 
+            computing services—such as servers, storage, databases, networking,
+            software, and analytics—over the internet, often referred to as "the
+            cloud." Instead of owning and maintaining physical data centers or
+            servers, organizations and individuals can access scalable and
+            flexible resources on demand from cloud providers like Amazon Web
+            Services (AWS), Microsoft Azure, or Google Cloud. Cloud computing
+            offers several benefits, including cost savings, scalability, 
+            flexibility, and increased collaboration. It supports a variety of
+            models, such as Infrastructure as a Service (IaaS), Platform as a
+            Service (PaaS), and Software as a Service (SaaS), catering to 
+            diverse needs like data storage, application development, and 
+            business services. As a result, cloud computing has transformed
+            industries by enabling faster innovation, reducing IT complexity,
+            and supporting remote work and global accessibility. 
+          </p>
+        </div>
+      </div>
+      <div class="hacking_video"><video autoplay muted loop controls><source src="vid.mp4" type="video/MP4"></video></div>
+      
+      
+
+    </header>
+
+     <footer>
+            <p class="centre">Copyright &copy; created by MANISH GUPTA</p>
+        </footer>
+  </body>
+</html>

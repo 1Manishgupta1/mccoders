@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  nav {
+    position: sticky;
+    top: 0%; /*position: sticky; must come with postion where you want it to stick */
+  
+    font-size: 2rem;
+    background-image: linear-gradient(to right,rgb(253, 253, 15),rgb(252, 14, 14));
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+  }
+  nav .left {
+    /* border: 2px solid black; */
+    width: 16rem;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .logoimage{
+    /* border: 2px solid black; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 35%;
+    height: 90%;
+    
+    display: flex;
+    padding-left: 1rem;
+    
+  }
+  .logoimage img {
+    /* border: 2px solid black; */
+
+    width: 75%;
+    height: 75%;
+    
+    
+  }
+  .logo{
+    /* border: 2px solid black; */
+    width: 60%;
+    height: 100%;
+   font-size: 110%;
+   
+  }
+ .middle {
+    /* border: 2px solid black; */
+    width: 25rem;
+    height: 95%;
+    display: flex;
+    align-items: center;
+  }
+  nav .middle input {
+    width: 100%;
+    height: 2rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    border-radius: 0.2rem;
+    border: none;
+  }
+  
+  @media(min-width:1178px) {
+    nav .right {
+    /* border: 2px solid black; */
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 2rem;
+    
+  }
+}
+
+@media(max-width:1178px) {
+  nav .right{
+    display: none;
+  }
+  nav .middle {
+    margin: 0 1.5rem;
+  }
+}
+
+@media(max-width:1178px){
+  .navbottom{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.219);
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+    position: sticky;
+    top: 63.2px;
+  }
+
+  @media (max-width:700px) {
+    nav .middle input{
+      display: none;
+    }
+    
+  }
+
+  @media(max-width:425px){
+    
+    .logoimage img{
+      width: 100%;
+    }
+    nav input{
+      display: none;
+    }
+  }
+  
+  .dropbtn {
+    border-radius: .3rem;
+    /* border: 5px solid black; */
+    width: 8rem;
+    background-color: #3498dbec;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    /* border: 2px solid black; */
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 20rem;
+    height: 18rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* min-width: 160px; */
+    /* overflow: auto; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    font-size: 1.5rem;
+    color: black;
+    height: 3rem;
+    padding-top: 1.5rem;
+    /* margin: 2rem 0; */
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+}
+
+
+  .right1{
+    /* border: 2px solid black; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .right2{
+    /* border: 2px solid black; */
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .right3{
+    /* border: 2px solid black; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .right4{
+    /* border: 2px solid black; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  nav .right a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+
+  @media(min-width:1178px){
+    .navbottom{
+      display: none;
+    }
+  }

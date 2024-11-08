@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="about.css">
+    
+</head>
+<body>
+    <nav >
+        <div class="left">
+          <div class="logoimage"><img src="logo.png"></div>
+          <div class="logo"><p>Coders</p></div>
+        </div>
+
+          <div class="middle"> <input type="text" placeholder="search here...." /> </div>
+          
+       
+        <div class="right">
+          <div class="right1"><a href="index.html">Home</a></div>
+          <div class="right2"><a href="about.html">About</a></div>
+          <div class="right3"><a href="https://www.mmmut.xyz/index.html" target="_blank">Resources</a></div>
+          <div class="right4"><a href="contact.html">Contact</a></div>
+        </div>
+
+        
+    </nav>
+
+    <div class="navbottom">
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="resources">Resources</a>
+            <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+
+          <div class="container">
+            <div class="left">
+              <img src="image.jpg" alt="">
+            </div>
+            <div class="right">
+              <h1>About Me</h1>
+              <p>"Hello dear user. <br>
+                 It’s a pleasure to you here on my website. 
+                Myself <b>Manish Gupta</b>,  <br>
+                I'm currently prusuing B.tech in Computer Science and Engineering 
+                from MMMUT Gorakhpur, Uttar Pradesh. 
+                 With over 1 years of experience in web development, 
+                I’ve had the opportunity to work on numerous projects aimed at 
+                improving efficiency and sustainability in practising Web Development. 
+
+                When I first entered this field, 
+                 I was drawn to the complexity and the potential for innovation. 
+                That’s what has kept me motivated throughout my Web 1development journey, 
+                and it’s an honor to share that journey with you today.
+
+                Thank you for your time and for the opportunity to be here today. 
+                 I look forward to a lively discussion and any questions you might have!" <br>
+                 <h2>Contact no : <a href="">9118644586</a></h2> 
+                
+                </p>
+            </div>
+          </div>
+        
+      
+          <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>  
+</body>
+</html>
